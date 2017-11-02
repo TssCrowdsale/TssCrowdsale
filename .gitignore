@@ -1,0 +1,16 @@
+*.swp
+*.swo
+node_modules/
+build/
+.DS_Store/
+/coverage
+coverage.json
+allFiredEvents
+scTopics
+
+**.DS_STORE
+
+.node-xmlhttprequest*
+.idea/**
+.credentials.json
+
