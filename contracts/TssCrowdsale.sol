@@ -244,8 +244,8 @@ contract MintableToken is StandardToken, Ownable {
 }
 
 contract TssToken is MintableToken, BurnableToken {
-    string public constant name = "MyLittleToken";
-    string public constant symbol = "MLT";
+    string public constant name = "TssToken";
+    string public constant symbol = "TSS";
     uint256 public constant decimals = 18;
 
     function TssToken(address initialAccount, uint256 initialBalance) public {
